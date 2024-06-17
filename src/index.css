@@ -199,7 +199,7 @@
         text-align: left;
     }
     .project_modal_content{
-        width: 91vw;
+        width: 95vw;
        
       
          
@@ -225,10 +225,11 @@
      .modal_img{
         max-width: 300px;
     }
-
+    
     .project_modal_content{
-        max-width: 300px;
-        
+        width: 95vw;
+       
+       
 
     }
     .item_details{
