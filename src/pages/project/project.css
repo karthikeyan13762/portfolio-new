@@ -55,7 +55,7 @@
     z-index: 1000;
     display: grid;
     place-items: center;
-    padding: 15px;
+    /* padding: 35px; */
 
 }
 
@@ -120,3 +120,36 @@
 .item_details {
     font-weight: var(--weight-600);
 }
+.modal_buttons {
+    margin-top: 20px;
+    display: flex;
+   /* Stack buttons vertically */
+    gap: 10px; /* Add space between buttons */
+  }
+  
+  .modal_button {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%; /* Make buttons full-width within their container */
+  }
+  
+  .modal_button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles if needed */
+  .project_modal_content {
+    /* Ensure content is properly spaced */
+    padding: 20px;
+  }
+  
+  .project_modal_content img.modal_img {
+    max-width: 100%;
+    margin-top: 20px;
+  }

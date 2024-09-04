@@ -7,13 +7,17 @@ import {
   FaGraduationCap,
   FaCode,
   FaVideo,
+  FaDiscourse,
+  FaTerminal,
+  FaBookOpen,
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { SiNetlify, SiRender } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Work1 from "./assets/project-1.jpeg";
 import Work2 from "./assets/todo.jpg";
-import Work3 from "./assets/crud.jpg";
+import Work3 from "./assets/project3.png";
+import Work4 from "./assets/project4.png";
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
 import Theme3 from "./assets/blueviolet.png";
@@ -24,6 +28,7 @@ import Theme7 from "./assets/yellowgreen.png";
 import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
+import { FaArrowUpZA } from "react-icons/fa6";
 
 export const links = [
   {
@@ -54,55 +59,14 @@ export const links = [
     path: "/contact",
   },
 ];
-
-export const personalInfo = [
-  {
-    id: 1,
-    title: "First Name : ",
-    description: "Karthikeyan",
-  },
-
-  {
-    id: 2,
-    title: "Last Name : ",
-    description: "M",
-  },
-
-  {
-    id: 3,
-    title: "Age : ",
-    description: "26 Years",
-  },
-
-  {
-    id: 4,
-    title: "Nationality : ",
-    description: "Indian",
-  },
-
-  // {
-  //   id: 5,
-  //   title: 'Address : ',
-  //   description: '3/398-B Kalaivanar 1st Street Dinamani Nagar Madurai-625018',
-  // },
-
-  {
-    id: 6,
-    title: "Phone : ",
-    description: "9345064663",
-  },
-
-  {
-    id: 7,
-    title: "Email : ",
-    description: "karthikeya3762@gmail.com",
-  },
-
-  {
-    id: 10,
-    title: "Languages : ",
-    description: "Tamil, English",
-  },
+export const description = [
+  `
+  I am Karthikeyan M from Madurai, a BE Mechanical Engineering graduate from RVS College of Engineering and Technology, passed out in 2019.
+  I have over 2 years of experience as a VIR Approval Officer at Royal Sundaram General Insurance Co. Limited, where I worked from September 18, 2020 to December 26, 2022. 
+  Currently, I am enhancing my technical skills through a Fullstack MERN course at GUVI, an IIT Madras incubated company. 
+  I have developed proficiency in HTML5, CSS3, JavaScript, Bootstrap, ReactJS, NodeJS, ExpressJS, MongoDB, and SQL.
+  I am eager to apply my skills in a dynamic and challenging environment, contributing to innovative projects and continuing to grow as a fullstack developer.
+`,
 ];
 
 export const stats = [
@@ -125,8 +89,8 @@ export const resume = [
 
   {
     id: 2,
-    category: "experience",
-    icon: <FaBriefcase />,
+    category: "course",
+    icon: <FaBookOpen />,
     year: "08/2023- 03/2024",
     title: "MERN Stack Course Experience <span>GUVI</span> ",
     desc: "I have completed the MERN stack course at GUVI, an IIT Madras incubated company. During this course, I gained proficiency in HTML5, CSS3, JavaScript, Bootstrap 5, ReactJS, NodeJS, ExpressJS, MongoDB, and SQL. These skills have equipped me to build dynamic, responsive, and scalable web applications, covering both frontend design and backend development, as well as database management.",
@@ -218,6 +182,9 @@ export const portfolio = [
     id: 1,
     img: Work1,
     title: "E-Commerce Project",
+    githubFE: "https://github.com/karthikeyan13762/project-name-frontend",
+    githubBE: "https://github.com/karthikeyan13762/project-name-backend",
+    deployedLink: "https://ecommerce-kcart8.onrender.com",
     details: [
       {
         icon: <FiFileText />,
@@ -231,14 +198,12 @@ export const portfolio = [
         desc: "React,Bootstrap,Node.js,Express.js,Mongo DB",
       },
       {
-        icon: <SiRender />,
-        title: "Render : ",
-        desc: '<a href="https://ecommerce-kcart8.onrender.com/">https://ecommerce-kcart8.onrender.com</a>',
+        title: <b className="admin">Admin : </b>,
+        desc: "karthi@gmail.com",
       },
       {
-        icon: <FaGithub />,
-        title: "Git-hub : ",
-        desc: '<a href="https://github.com/karthikeyan13762/ecommerce-kcart">https://github.com/karthikeyan13762/ecommerce-kcart</a>',
+        title: <b className="admin">Password : </b>,
+        desc: "karthi429",
       },
     ],
   },
@@ -246,6 +211,9 @@ export const portfolio = [
     id: 2,
     img: Work2,
     title: "TODO List",
+    githubFE: " https://github.com/karthikeyan13762/todo-frontend",
+    githubBE: " https://github.com/karthikeyan13762/todo-backend",
+    deployedLink: "https://todo-app-88.netlify.app",
     details: [
       {
         icon: <FiFileText />,
@@ -258,16 +226,7 @@ export const portfolio = [
         title: "Technologies : ",
         desc: "React,CSS,Node.js,Express.js,Mongo DB",
       },
-      {
-        icon: <SiNetlify />,
-        title: "Netlify : ",
-        desc: '<a href="https://todo-app-88.netlify.app">https://todo-app-88.netlify.app</a>',
-      },
-      {
-        icon: <FaGithub />,
-        title: "Git-hub : ",
-        desc: '<a href="https://github.com/karthikeyan13762/todo-frontend">https://github.com/karthikeyan13762/todo-frontend</a>',
-      },
+
       // {
       //   icon: <FaVideo />,
       //   title: "Demo Video : ",
@@ -278,7 +237,12 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "CRUD Operation",
+    title: "CRUD Axios",
+    githubFE:
+      "https://github.com/karthikeyan13762/project-name-frontend-crud-axios",
+    githubBE:
+      "https://github.com/karthikeyan13762/project-name-backend-crud-axios",
+    deployedLink: "https://crud-axios-8.netlify.app",
     details: [
       {
         icon: <FiFileText />,
@@ -289,18 +253,56 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Technologies : ",
-        desc: "React,CSS",
+        desc: "React,ExpressJS,Bootstrap,MongoDB,NodeJS",
       },
+      // {
+      //   icon: <SiNetlify />,
+      //   title: "Netlify : ",
+      //   desc: '<a href="https://react-simple-crud-8.netlify.app">https://react-simple-crud-8.netlify.app</a>',
+      // },
+      // {
+      //   icon: <FaGithub />,
+      //   title: "Git-hub : ",
+      //   desc: '<a href="https://github.com/karthikeyan13762/Simple-CRUD">https://github.com/karthikeyan13762/Simple-CRUD</a>',
+      // },
+      // {
+      //   icon: <FaVideo />,
+      //   title: "Demo Video : ",
+      //   desc: `<a href=${Video2}>CRUD-Demo</a>`,
+      // },
+    ],
+  },
+  {
+    id: 4,
+    img: Work4,
+    title: "Todo Fetch-Api",
+    githubFE:
+      "https://github.com/karthikeyan13762/project-name-frontend-todo-fetchApi",
+    githubBE:
+      "https://github.com/karthikeyan13762/project-name-backend-todo-fetchApi",
+    deployedLink: "https://todo-fetch-api-8.netlify.app",
+    details: [
       {
-        icon: <SiNetlify />,
-        title: "Netlify : ",
-        desc: '<a href="https://react-simple-crud-8.netlify.app">https://react-simple-crud-8.netlify.app</a>',
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "CRUD using MERN",
       },
+
       {
-        icon: <FaGithub />,
-        title: "Git-hub : ",
-        desc: '<a href="https://github.com/karthikeyan13762/Simple-CRUD">https://github.com/karthikeyan13762/Simple-CRUD</a>',
+        icon: <FaCode />,
+        title: "Technologies : ",
+        desc: "React,ExpressJS,Bootstrap,MongoDB,NodeJS",
       },
+      // {
+      //   icon: <SiNetlify />,
+      //   title: "Netlify : ",
+      //   desc: '<a href="https://react-simple-crud-8.netlify.app">https://react-simple-crud-8.netlify.app</a>',
+      // },
+      // {
+      //   icon: <FaGithub />,
+      //   title: "Git-hub : ",
+      //   desc: '<a href="https://github.com/karthikeyan13762/Simple-CRUD">https://github.com/karthikeyan13762/Simple-CRUD</a>',
+      // },
       // {
       //   icon: <FaVideo />,
       //   title: "Demo Video : ",

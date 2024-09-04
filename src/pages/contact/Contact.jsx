@@ -112,6 +112,8 @@ const Contact = () => {
                 placeholder="Your Email"
                 name="from_email"
                 className="form_control"
+                required
+                maxLength={25}
               />
               {errors.from_email && (
                 <span className="error">{errors.from_email}</span>
