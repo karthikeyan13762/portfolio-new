@@ -12,7 +12,7 @@
 }
 
 .project_img {
-    height: 250px;
+    height: 240px;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
@@ -129,7 +129,7 @@
   
   .modal_button {
     display: block;
-    padding: 10px 20px;
+    padding: 8px 17px;
     color: #fff;
     background-color: #007bff;
     text-decoration: none;

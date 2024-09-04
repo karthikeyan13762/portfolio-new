@@ -242,8 +242,17 @@
     .info_list .info_description{
         font-size: var(--smaller-font-size);
     }
-   
-
+    .modal_button {
+        display: block;
+        padding: 5px 10px;
+        color: #fff;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+        width: 100%; /* Make buttons full-width within their container */
+      }
 }
 
 
