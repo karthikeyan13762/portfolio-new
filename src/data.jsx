@@ -92,7 +92,7 @@ export const resume = [
     category: "course",
     icon: <FaBookOpen />,
     year: "08/2023- 03/2024",
-    title: "MERN Stack Course Experience <span>GUVI</span> ",
+    title: "MERN Stack Course<span>GUVI</span> ",
     desc: "I have completed the MERN stack course at GUVI, an IIT Madras incubated company. During this course, I gained proficiency in HTML5, CSS3, JavaScript, Bootstrap 5, ReactJS, NodeJS, ExpressJS, MongoDB, and SQL. These skills have equipped me to build dynamic, responsive, and scalable web applications, covering both frontend design and backend development, as well as database management.",
   },
 
