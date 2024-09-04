@@ -12,7 +12,7 @@ const Home = () => {
       <div className="home_content">
         <div className="home_data">
           <h1 className="home_title">
-            <span>I'm Karthikeyan.</span> <br /> Fullstack Developer
+            <span>I'm Karthikeyan.</span> <br /> Full Stack Developer
           </h1>
           <p className="home_description">
             Transitioning from Non-IT background.I aim to develop proficient
