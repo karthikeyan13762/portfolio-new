@@ -15,10 +15,9 @@ const Home = () => {
             <span>I'm Karthikeyan.</span> <br /> Full Stack Developer
           </h1>
           <p className="home_description">
-            Transitioning from Non-IT background.I aim to develop proficient
-            coding skills to enhance problem-solving capabilities,contribute to
-            technology-driven solutions,and cultivate a successful career in
-            software development.
+            Passionate about learning and mastering coding to tackle real-world
+            challenges, drive innovation, and build a rewarding career in
+            software development that makes a lasting impact.
           </p>
           <Link to={"/about"} className="button">
             More About Me{" "}
