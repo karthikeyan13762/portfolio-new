@@ -18,6 +18,8 @@ import Work1 from "./assets/project-1.jpeg";
 import Work2 from "./assets/todo.jpg";
 import Work3 from "./assets/project3.png";
 import Work4 from "./assets/project4.png";
+import Work5 from "./assets/lms.jpg";
+
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
 import Theme3 from "./assets/blueviolet.png";
@@ -209,6 +211,33 @@ export const portfolio = [
   },
   {
     id: 2,
+    img: Work5,
+    title: "LMS app",
+    githubFE: " https://github.com/karthikeyan13762/project-name-frontend-lms",
+    githubBE: " https://github.com/karthikeyan13762/project-name-backend-lms",
+    deployedLink: "https://library-management-system-8.netlify.app/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Library Management System",
+      },
+
+      {
+        icon: <FaCode />,
+        title: "Technologies : ",
+        desc: "React,CSS,Node.js,Express.js,Mongo DB",
+      },
+
+      // {
+      //   icon: <FaVideo />,
+      //   title: "Demo Video : ",
+      //   desc: `<a href=${Video1}>Todo-List-Demo</a>`,
+      // },
+    ],
+  },
+  {
+    id: 3,
     img: Work2,
     title: "TODO List",
     githubFE: " https://github.com/karthikeyan13762/todo-frontend",
@@ -235,7 +264,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: Work3,
     title: "CRUD Axios",
     githubFE:
@@ -273,7 +302,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: Work4,
     title: "Todo Fetch-Api",
     githubFE:
