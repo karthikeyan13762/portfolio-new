@@ -15,10 +15,11 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { SiNetlify, SiRender } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/todo.jpg";
+import Work2 from "./assets/chaty.jpg";
 import Work3 from "./assets/project3.png";
 import Work4 from "./assets/project4.png";
 import Work5 from "./assets/lms.jpg";
+import Work6 from "./assets/marcketplace.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -239,21 +240,51 @@ export const portfolio = [
   {
     id: 3,
     img: Work2,
-    title: "TODO List",
-    githubFE: " https://github.com/karthikeyan13762/todo-frontend",
-    githubBE: " https://github.com/karthikeyan13762/todo-backend",
-    deployedLink: "https://todo-app-88.netlify.app",
+    title: "Chat App",
+    githubFE: " https://github.com/karthikeyan13762/chaty-app-frontend",
+    githubBE: " https://github.com/karthikeyan13762/chaty-app-backend",
+    deployedLink: "https://chaty-app-8.netlify.app",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Todo List using MERN Stack ",
+        desc: "Chat App",
       },
 
       {
         icon: <FaCode />,
         title: "Technologies : ",
-        desc: "React,CSS,Node.js,Express.js,Mongo DB",
+        desc: "React,CSS,Bootstrap,Express.js,Mongo DB,",
+      },
+
+      // {
+      //   icon: <FaVideo />,
+      //   title: "Demo Video : ",
+      //   desc: `<a href=${Video1}>Todo-List-Demo</a>`,
+      // },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work6,
+    title: "Marcketplace App",
+    githubFE:
+      " https://github.com/karthikeyan13762/project-name-frontend-marcketplace",
+    githubBE:
+      " https://github.com/karthikeyan13762/project-name-backend-marcketplace",
+    deployedLink: "https://marcketplace-8.netlify.app",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Marcketplace App",
+      },
+
+      {
+        icon: <FaCode />,
+        title: "Technologies : ",
+        desc: "React,Redux,CSS,Bootstrap,Express.js,Mongo DB,",
       },
 
       // {
@@ -264,7 +295,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: Work3,
     title: "CRUD Axios",
     githubFE:
