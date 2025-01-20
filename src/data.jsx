@@ -229,6 +229,14 @@ export const portfolio = [
         title: "Technologies : ",
         desc: "React,CSS,Node.js,Express.js,Mongo DB",
       },
+      {
+        title: <b className="admin">Admin : </b>,
+        desc: "admin",
+      },
+      {
+        title: <b className="admin">Password : </b>,
+        desc: "admin123",
+      },
 
       // {
       //   icon: <FaVideo />,
@@ -255,6 +263,14 @@ export const portfolio = [
         icon: <FaCode />,
         title: "Technologies : ",
         desc: "React,CSS,Bootstrap,Express.js,Mongo DB,",
+      },
+      {
+        title: <b className="admin">User : </b>,
+        desc: "karthi",
+      },
+      {
+        title: <b className="admin">Password : </b>,
+        desc: "12345678",
       },
 
       // {
@@ -285,6 +301,14 @@ export const portfolio = [
         icon: <FaCode />,
         title: "Technologies : ",
         desc: "React,Redux,CSS,Bootstrap,Express.js,Mongo DB,",
+      },
+      {
+        title: <b className="admin">Admin : </b>,
+        desc: "karthi@gmail.com",
+      },
+      {
+        title: <b className="admin">Password : </b>,
+        desc: "123456",
       },
 
       // {
